@@ -16,3 +16,15 @@ print('resultado da divisao  e')
 print (primeiro_numero / segundo_numero)
 print('resultado da multiplicacao e')
 print (primeiro_numero * segundo_numero)
+
+# 2. Solicite ao usuário que insira um número e determine se é positivo, 
+# negativo ou zero.
+
+numero = int(input("insira primeiro numero\n"))    
+
+if numero > 0:
+    print('numero positivo')
+elif numero < 0:
+    print('numero negativo')
+else:
+    print('numero 0')
